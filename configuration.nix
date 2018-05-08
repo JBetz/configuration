@@ -72,7 +72,7 @@
   services.xserver.desktopManager.plasma5.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.joseph = {
+  users.extraUsers.joseph = {
     isNormalUser = true;
     home = "/home/joseph";
     description = "Joseph Betz";
